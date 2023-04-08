@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .background{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    background-image: url(file:///C:/Users/User/Downloads/Screenshot_20221221-023647_Gallery.jpg);
+    background-repeat: no-repeat;
+    zoom: 4.2;
+  }
+
+  h2{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: white;
+   
+  }
+
+  h3{
+    position: absolute;
+    width: 800px;
+    height: 63px;
+    left: 100px;
+    top: 250px;
+
+    font-family: 'Inter';
+    writing-mode: inherit;
+    font-style: oblique;
+    font-weight: 60;
+    font-size: 20px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+  }
+  
