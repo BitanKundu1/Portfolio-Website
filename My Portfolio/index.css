@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .background{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    background-image: url(file:///C:/Users/User/Downloads/Screenshot_20221221-023647_Gallery.jpg);
+    background-repeat: no-repeat;
+    zoom: 4.2;
+  }
+  .myphoto{
+    position: absolute;
+    width: 241px;
+    height: 265px;
+    left: 86px;
+    top: 52px;
+
+    background: url(WhatsApp Image 2022-11-07 at 18.30.jpg);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 137px;
+  }
+  h3{
+    position: absolute;
+    width: 220px;
+    height: 63px;
+    left: 83px;
+    top: 330px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+  }
+
+  h1{
+    position: absolute;
+    width: 611px;
+    height: 113px;
+    left: 83px;
+    top: 360px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 116px;
+
+    color: #FFFFFF;
+
+  }
+
+  h2{
+    position: absolute;
+    width: 611px;
+    height: 63px;
+    left: 83px;
+    top: 480px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: white;
+   
+  }
+  .Red{
+    color: red;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    position: relative;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: red;
+    transition: .5s;
+}
+
+.linkedin{
+  position: absolute;
+  top: 630px;
+  left: 6.0%;
+  width: 45px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Twitter{
+  position: absolute;
+  top: 630px;
+  left: 13%;
+  width: 45px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.instagram{
+  position: absolute;
+  top: 630px;
+  left: 20%;
+  width: 45px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Facebook{
+  position: absolute;
+  top: 630px;
+  left: 27%;
+  width: 45px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
